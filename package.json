@@ -11,8 +11,8 @@
     "create-local": "graph create --node http://localhost:8020/ bapuy/harmony-tokens-subgraph",
     "remove-local": "graph remove --node http://localhost:8020/ bapuy/harmony-tokens-subgraph",
     "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 bapuy/harmony-tokens-subgraph",
-    "create-harmony": "graph create --node https://graph.t.hmny.io:8020 bapuy/harmony-tokens-subgraph",
-    "deploy-harmony": "graph deploy --node https://graph.t.hmny.io:8020 --ipfs http://graph.t.hmny.io:5001 bapuy/harmony-tokens-subgraph"
+    "create-harmony": "graph create --node https://graph.t.hmny.io:8020 bapuy/dfk01",
+    "deploy-harmony": "graph deploy --node https://graph.t.hmny.io:8020 --ipfs http://graph.t.hmny.io:5001 bapuy/dfk01"
   },
   "devDependencies": {
     "@graphprotocol/graph-cli": "0.18.0",
